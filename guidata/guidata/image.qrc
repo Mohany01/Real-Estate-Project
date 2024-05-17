@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>adpartment 2.jpg</file>
+        <file>delete.png</file>
+        <file>hoome.jpg</file>
+        <file>image.png</file>
+        <file>information.jpg</file>
+        <file>more.png</file>
+        <file>office_6619424.png</file>
+        <file>profile.jpg</file>
+        <file>sign.jpg</file>
+        <file>user.png</file>
+        <file>users.jpg</file>
+        <file>admin.jpg</file>
+        <file>edit.jpg</file>
+        <file>apartment.png</file>
+        <file>add property.jpg</file>
+        <file>back-arrow_594830.png</file>
+        <file>home_738873.png</file>
+        <file>apart.jpg</file>
+        <file>prop2.png</file>
+        <file>allproperty.jpg</file>
+        <file>preferences_13670847.png</file>
+        <file>marker_1397898.png</file>
+        <file>pin.png</file>
+        <file>TEXT.png</file>
+        <file>tag_543135.png</file>
+        <file>allproperty2.jpg</file>
+        <file>all.jpg</file>
+        <file>star_3794158.png</file>
+        <file>editApartment.jpg</file>
+        <file>area_1295160.png</file>
+        <file>bedroom_4851837.png</file>
+        <file>back.png</file>
+        <file>right-arrows.png</file>
+        <file>compareProperty.jpg</file>
+        <file>Rectangle 1.png</file>
+        <file>3d-house-model-with-modern-architecture.png</file>
+        <file>0684456b-aa2b-4631-86f7-93ceaf33303c.png</file>
+        <file>view.png</file>
+        <file>house_6815657.png</file>
+        <file>power_15184319.png</file>
+        <file>real-estate-app.png</file>
+        <file>log.png</file>
+        <file>next.png</file>
+        <file>3d-cartoon-portrait-person-practicing-law-related-profession.png</file>
+        <file>background.jpg</file>
+        <file>trans2.png</file>
+        <file>transparent.png</file>
+        <file>rec1.png</file>
+        <file>arrow-down_6423873.png</file>
+    </qresource>
+</RCC>

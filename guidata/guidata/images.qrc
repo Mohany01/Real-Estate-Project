@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>D:/project/user.png</file>
+        <file>D:/project/contacts_15233065.png</file>
+        <file>D:/project/image.png</file>
+        <file>D:/project/more.png</file>
+        <file>D:/project/person_12259244.png</file>
+    </qresource>
+</RCC>

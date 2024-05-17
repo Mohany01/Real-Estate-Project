@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>information</class>
+ <widget class="QDialog" name="information">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>997</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Real Estae</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-12</y>
+     <width>1061</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="image.qrc">:/new/add property.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="price">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>325</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>price</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="location">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>418</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>location</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="area">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>225</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>area</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bedrooms">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>325</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bath">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>415</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="descrip">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>570</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>description</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>225</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submit">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>570</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 10px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }</string>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>17</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }</string>
+   </property>
+   <property name="text">
+    <string>&gt;Back</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="type">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>163</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit{
+background-color:transparent;
+border:none;
+
+
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Type</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userPage</class>
+ <widget class="QDialog" name="userPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1001</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>998</width>
+    <height>619</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1001</width>
+     <height>667</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="image.qrc">:/new/profile.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fitrst">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="secon">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>210</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="username">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>260</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="phone">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>310</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nofapp">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>350</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="view_1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>610</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>15</pointsize>
+     <italic>false</italic>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <fontweight>ExtraLight</fontweight>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/view.png</normaloff>:/new/view.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="view_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>610</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>15</pointsize>
+     <italic>false</italic>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <fontweight>ExtraLight</fontweight>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/view.png</normaloff>:/new/view.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="view_3">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>610</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>15</pointsize>
+     <italic>false</italic>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <fontweight>ExtraLight</fontweight>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/view.png</normaloff>:/new/view.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="view_4">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>610</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>15</pointsize>
+     <italic>false</italic>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <fontweight>ExtraLight</fontweight>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/view.png</normaloff>:/new/view.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_2">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>230</y>
+     <width>131</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 16px,16px;
+
+}
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+       icon-size: 25px,25px;
+
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/house_6815657.png</normaloff>:/new/house_6815657.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewApartments">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>10</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 16px,16px;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/office_6619424.png</normaloff>:/new/office_6619424.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="returnusername">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>15</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>asdasdasda</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>20</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Hello</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>17</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : red;
+      
+
+ }</string>
+   </property>
+   <property name="text">
+    <string>LogOut</string>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/power_15184319.png</normaloff>:/new/power_15184319.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit_5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>400</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>17</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }</string>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="apart1">
+   <property name="geometry">
+    <rect>
+     <x>44</x>
+     <y>520</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 60px,60px;
+
+}
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+       icon-size: 25px,25px;
+	 border-radius: 20px;
+
+
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prop2.png</normaloff>:/new/prop2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>170</width>
+     <height>200</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prop1">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>615</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prop2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>620</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prop3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>620</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prop4">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>620</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="apart1_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>520</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 60px,60px;
+
+}
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+       icon-size: 25px,25px;
+
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prop2.png</normaloff>:/new/prop2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>170</width>
+     <height>200</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="apart1_3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>520</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 60px,60px;
+
+}
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+       icon-size: 25px,25px;
+
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prop2.png</normaloff>:/new/prop2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>170</width>
+     <height>200</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="apart1_4">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>520</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 60px,60px;
+
+}
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+       icon-size: 25px,25px;
+
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prop2.png</normaloff>:/new/prop2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>170</width>
+     <height>200</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>480</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>480</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>480</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name4">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>480</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: rgb(85, 85, 255);
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 16px,16px;
+
+}
+QPushButton:pressed
+ {
+
+background-color : #ff0000;
+       icon-size: 25px,25px;
+
+
+ }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/delete.png</normaloff>:/new/delete.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del3">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: rgb(85, 85, 255);
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 16px,16px;
+
+}
+QPushButton:pressed
+ {
+
+background-color : #ff0000;
+       icon-size: 25px,25px;
+
+
+ }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/delete.png</normaloff>:/new/delete.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del4">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: rgb(85, 85, 255);
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 16px,16px;
+
+}
+QPushButton:pressed
+ {
+
+background-color : #ff0000;
+       icon-size: 25px,25px;
+
+
+ }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/delete.png</normaloff>:/new/delete.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del2_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: rgb(85, 85, 255);
+                 
+     background-color: transparent;
+}
+QPushButton:hover
+{
+ border-radius: 20px;
+background-color : gray;
+ icon-size: 16px,16px;
+
+}
+QPushButton:pressed
+ {
+
+background-color : #ff0000;
+       icon-size: 25px,25px;
+
+
+ }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/delete.png</normaloff>:/new/delete.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit1">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/more.png</normaloff>:/new/more.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edi2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/more.png</normaloff>:/new/more.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit3">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/more.png</normaloff>:/new/more.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit4">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>470</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+                       color:white;
+     background-color: transparent;
+                       }
+                         QPushButton:hover {
+                             background-color: gray;
+                     		 border-radius: 20px;
+
+
+                         }
+
+QPushButton:pressed
+ {
+
+      background-color : rgb(51, 149, 255);
+      
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/more.png</normaloff>:/new/more.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

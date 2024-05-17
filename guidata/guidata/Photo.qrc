@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/Photos">
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/admin page 2.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/adpartment 2.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/hoome.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/information.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/WhatsApp Image 2024-05-05 at 12.36.21_62bee236.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/sign.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/profile.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/delete.png</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/contacts_15233065.png</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/image.png</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/more.png</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/office_6619424.png</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/user.png</file>
+        <file>users.jpg</file>
+        <file>C:/Users/UsifE/Pictures/Screenshots/Images For GUI/users.jpg</file>
+    </qresource>
+</RCC>
